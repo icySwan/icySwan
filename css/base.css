@@ -80,7 +80,6 @@ a {
 
 .ar-title {
     text-align: center;
-    display: none;
 }
 
 
@@ -88,6 +87,7 @@ a {
 .timeline-main {
     height: 200px;
     overflow-x: scroll;
+    display: -webkit-flex;
     display: flex;
     background: url(http://i13.tietuku.com/19ac8304b56dca2a.png) 0 0 repeat;
     background-size: auto 100%;
@@ -97,6 +97,7 @@ a {
     height: 200px;
 }
 .t-d-list {
+    display: -webkit-flex;
     display: flex;
 }
 .t-d {
