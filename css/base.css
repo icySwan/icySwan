@@ -87,8 +87,13 @@ a {
 .timeline-main {
     height: 200px;
     overflow-x: scroll;
-    display: -webkit-flex;
-    display: flex;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox!important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
     background: url(http://i13.tietuku.com/19ac8304b56dca2a.png) 0 0 repeat;
     background-size: auto 100%;
 }
@@ -96,9 +101,22 @@ a {
 .tb {
     height: 200px;
 }
+
+.t-bg {
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: none !important;
+    -ms-flex: none !important;
+    flex: none !important;
+    width: auto
+}
 .t-d-list {
-    display: -webkit-flex;
-    display: flex;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox!important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
 }
 .t-d {
     width: 240px;
