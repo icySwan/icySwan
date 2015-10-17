@@ -93,7 +93,7 @@ a {
     display: flex !important;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     background: url(http://i13.tietuku.com/19ac8304b56dca2a.png) 0 0 repeat;
     background-size: auto 100%;
 }
