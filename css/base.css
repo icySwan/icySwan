@@ -14,6 +14,7 @@ html, body {
     letter-spacing: 2px;
     width: 100%;
     overflow-x: hidden;
+    -webkit-user-select: none;
 }
 
 ul, li, ol {
@@ -191,6 +192,43 @@ a {
     color: #333;
 }
 
+/*ga*/
+.g-detail {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.g-detail img {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+}
+
+.g-detail span {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+.g-detail span.after {
+    right: 0;
+}
+
+.g-detail .desc {
+    position: absolute;
+    right: 10px;
+    z-index: 9999;
+    top: 10px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 3px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
 /*footer*/
 .foot-main {
     padding: 40px 10px 20px 10px;
@@ -241,6 +279,10 @@ a {
         height: 275px;
         width: 100%;
     }
+    .g-detail {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
 
 /* iPad */
@@ -250,6 +292,10 @@ a {
     }
     .s-wrapper {
         width: 50%;
+    }
+    .g-detail {
+        width: 49.5%;
+        margin: 10px 0;
     }
 }
 
