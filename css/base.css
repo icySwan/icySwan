@@ -36,6 +36,7 @@ a {
 }
 
 .bg-img {
+    vertical-align: top;
     width: 100%;
     min-height: 800px;
     background-color: #333;
@@ -77,6 +78,66 @@ a {
     font-weight: lighter;
 }
 
+.ar-title {
+    text-align: center;
+    display: none;
+}
+
+
+/*timeline*/
+.timeline-main {
+    height: 200px;
+    overflow-x: scroll;
+    display: flex;
+    background: url(http://i13.tietuku.com/19ac8304b56dca2a.png) 0 0 repeat;
+    background-size: auto 100%;
+}
+
+.tb {
+    height: 200px;
+}
+.t-d-list {
+    display: flex;
+}
+.t-d {
+    width: 240px;
+    position: relative;
+}
+.d-title {
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.4);
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+
+.d-detail {
+    font-size: 14px;
+    position: absolute;
+    top: 40px;
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.d-detail:before {
+    position: absolute;
+    content: ' ';
+    top: -6px;
+    left: 10px;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(255,255,255,0.6);
+}
+
+.d-detail img {
+    display: block;
+    width: 200px;
+}
+
+/*history*/
 .s-wrapper {
     width: 25%;
     float: left;
@@ -108,6 +169,15 @@ a {
     background-color: rgba(255,255,255,0.7);
     line-height: 1.5;
     color: #333;
+}
+
+/*footer*/
+.foot-main {
+    padding: 40px 10px 20px 10px;
+    background-color: #F0F8FF;
+    border-top: 1px solid #686896;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 /* phone */
