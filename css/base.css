@@ -85,7 +85,7 @@ a {
 
 /*timeline*/
 .timeline-main {
-    height: 200px;
+    height: 260px;
     overflow-x: scroll;
     display: -webkit-box !important;
     display: -webkit-flex !important;
@@ -152,8 +152,9 @@ a {
 }
 
 .d-detail img {
-    display: block;
-    width: 200px;
+    display: inline-block;
+    width: 50px;
+    vertical-align: text-top;
 }
 
 /*history*/
