@@ -3,7 +3,7 @@ var gallery = {
         'http://i13.tietuku.com/5c4e74388c9c98b6.jpg',
         'http://i13.tietuku.com/c64fda3f86281cd1.jpg',
         'http://i13.tietuku.com/bd06a8f96834d9eb.jpg',
-        'http://i13.tietuku.com/e61f84072a80609b.jpg',
+        //'http://i13.tietuku.com/e61f84072a80609b.jpg',
         'http://i13.tietuku.com/bac667ff188573c2.jpg',
         'http://i13.tietuku.com/8c9aaa3bdb266280.jpg',
         'http://i13.tietuku.com/db6c5b45a8205656.jpg'
