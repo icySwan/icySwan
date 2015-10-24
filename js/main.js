@@ -114,11 +114,16 @@ var gallery = {
         'http://i13.tietuku.com/25629d37b86944cd.jpg',
         'http://i13.tietuku.com/641d928cefa56fbb.jpg',
         'http://i13.tietuku.com/586d3c202c422925.jpg',
-        'http://i13.tietuku.com/52b55f74ccfd885d.jpg'
+        'http://i13.tietuku.com/52b55f74ccfd885d.jpg',
+        'http://i11.tietuku.com/33caa017135e9b75.png',
+        'http://i11.tietuku.com/635d30f73b0566b5.png',
+        'http://i11.tietuku.com/42661f8c6883281c.png'
     ],
     201510: [
         'http://i13.tietuku.com/a6858378e298c30f.jpg',
-        'http://i13.tietuku.com/e066b830f4ff05bc.jpg'
+        'http://i13.tietuku.com/e066b830f4ff05bc.jpg',
+        'http://i13.tietuku.com/b77b33b81a1d7dc5.png',
+        'http://i13.tietuku.com/18ac4a0675cd399f.png'
     ]
 };
 var gDetails = document.querySelectorAll('.g-detail');
