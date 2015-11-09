@@ -128,7 +128,8 @@ var gallery = {
 };
 var gDetails = document.querySelectorAll('.g-detail');
 var len = gDetails.length;
-for(var i =0; i<len; i++) {
+var i;
+for(i =0; i<len; i++) {
     var $curDetail = gDetails[i];
     $curDetail.addEventListener('click', function(e) {
         e.preventDefault();
@@ -155,4 +156,15 @@ for(var i =0; i<len; i++) {
         $img.src = content[curIndex];
         this.setAttribute('data-index', curIndex);
     });
+}
+
+var index = 0;
+var $mapItem = document.querySelectorAll('.map-item');
+len = $mapItem.length;
+for(i =0; i<len; i++) {
+    if(index > 4) {
+        index = 0;
+    }
+    $mapItem[i].classList.add('rotate-' + index);
+    index ++;
 }
