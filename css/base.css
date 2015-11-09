@@ -229,6 +229,38 @@ a {
     border-radius: 2px;
 }
 
+/*map*/
+.map-wrapper {
+    font-size: 12px;
+}
+
+.map-line {
+    margin: 10px 0;
+    vertical-align: top;
+}
+
+.map-line, .map-item {
+    display: inline-block;
+    width: 48%;
+}
+
+.map-item {
+    text-indent: 14px;
+    vertical-align: top;
+}
+
+.map-date {
+    -webkit-box-reflect: below 0 -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.1, transparent), to(white));
+    margin-bottom: 20px;
+}
+
+.map-time {
+    margin-left: 5px;
+    font-weight: bolder;
+    color:#dd2727;
+}
+
+
 /*footer*/
 .foot-main {
     padding: 40px 10px 20px 10px;
@@ -240,6 +272,22 @@ a {
 
 /* phone */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .map-wrapper {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+    .map-line {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .map-item {
+        flex: 1;
+        padding: 8px;
+        border-right: 1px solid #999;
+        text-indent: 0;
+    }
     .bg {
         height: 222px;
         overflow: hidden;
