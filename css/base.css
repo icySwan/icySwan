@@ -304,6 +304,7 @@ a {
 .map-date {
     /*-webkit-box-reflect: below 0 -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.1, transparent), to(white));*/
     margin-bottom: 10px;
+    font-weight: bolder;
 }
 
 .map-time {
