@@ -301,7 +301,7 @@ a {
     color: #fff;
 }
 
-.map-main {
+.map-main, #map {
     background-image: url(http://i13.tietuku.com/19ac8304b56dca2a.png);
 }
 .map-date {
