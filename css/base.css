@@ -249,14 +249,15 @@ a {
     text-indent: 14px;
     vertical-align: top;
     text-decoration: none;
-    color: #000;
-    background: #ffc;
+    color: #333;
+    background: #F7F7D5;
     -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
     -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
     -moz-transition: -moz-transform .15s linear;
     -o-transition: -o-transform .15s linear;
     -webkit-transition: -webkit-transform .15s linear;
+    border-radius: 10px;
 }
 
 .rotate-0 {
@@ -269,7 +270,14 @@ a {
     -moz-transform: rotate(4deg);
     position: relative;
     top: 5px;
-    background: #D7FFD7;
+    background: #81d3d0;
+    color: #fff;
+}
+
+.rotate-1 .map-time,
+.rotate-2 .map-time,
+.rotate-4 .map-time{
+    color: #fff;
 }
 
 .rotate-2 {
@@ -278,28 +286,30 @@ a {
     -moz-transform: rotate(-3deg);
     position: relative;
     top: -5px;
-    background: #E8E8FF;
+    background: #e7486c;
+    color: #fff;
 }
 
 .rotate-3 {
-    background: #FDC6C6;
+    background: #D1E7F9;
     -webkit-transform: rotate(-16deg);
 }
 
 .rotate-4 {
-    background-color: #FFCAFD;
+    background-color: #C7A8F7;
     -webkit-transform: rotate(18deg);
+    color: #fff;
 }
 
 .map-date {
-    -webkit-box-reflect: below 0 -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.1, transparent), to(white));
-    margin-bottom: 20px;
+    /*-webkit-box-reflect: below 0 -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.1, transparent), to(white));*/
+    margin-bottom: 10px;
 }
 
 .map-time {
     margin-left: 5px;
     font-weight: bolder;
-    color:#dd2727;
+    color:#333;
 }
 
 /*footer*/
