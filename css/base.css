@@ -312,6 +312,9 @@ a {
     color:#333;
 }
 
+#map, #timeline, #gallery, #story {
+    font-family: cursive;
+}
 /*footer*/
 .foot-main {
     padding: 40px 10px 20px 10px;
